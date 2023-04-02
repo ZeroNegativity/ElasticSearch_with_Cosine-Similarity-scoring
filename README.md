@@ -12,7 +12,7 @@ We then used the utils.cos sim function to compute cosine similarity scores for 
 pair in the set, and re-evaluated the scores based on the new similarity values obtained from the 
 SentenceTransformer model.
 
-##Bonus Part
+## Bonus Part
 
 To answer this question, we began by selecting a set of initial "training/queries" queries to create a 
 document of 100 results, with 50 top doc scores from each query. We then computed BM25 scores for 
